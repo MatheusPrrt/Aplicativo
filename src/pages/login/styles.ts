@@ -10,48 +10,47 @@ container:{
     justifyContent : 'center',
     
     },
-BoxTop:{
+BoxTop:{ //Campo responsável pela parte de cima da tela
     height:Dimensions.get('window').height/3,
     width: '100%',
     //backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center'
      },
- BoxMid:{
+ BoxMid:{ //Campo responsável pelo meio da tela
     height:Dimensions.get('window').height/4,
     width: '100%',
-   // backgroundColor: 'green',
-paddingHorizontal: 37
+    paddingHorizontal: 37,
     },
-BoxBotton:{
+BoxBotton:{ //Campo responsável pela parte de baixo da tela
 
     height:Dimensions.get('window').height/3,
     width: '100%',
     backgroundColor: 'blue'
  },
-logo:{
+logo:{ // Campo responsável pela logo
     width:80,
     height:80
 },
-text:{
+text:{  // Campo Responsável pelo 'Texto = Bem - Vindo'
 
     fontWeight: 'bold',
     marginTop: 40,
     fontSize:18,
 },
-titleInput:{
+titleInput:{ //Campo responsável por mexer no css do 'E-mail'
 
     marginLeft:5,
     color:themas.colors.gray,
     marginTop:20,
 },
-senhaImput:{
+senhaImput:{ //Campo responsável por mexer no css da 'SENHA'
 
     marginLeft:5,
     color:themas.colors.gray,
     marginTop:20,
 },
-boxImput:{
+boxImput:{ // Campo responsável pela caixa de Input do E-mail
 
     width:'100%',
     height:40,
@@ -66,7 +65,7 @@ boxImput:{
 
 
 },
-imput:{
+imput:{ // Responsável pelo CSS da caixa de Input da tela de login
 
 height:'100%',
 width:'90%',

@@ -28,7 +28,7 @@ return(
             <TextInput
                 style={style.imput}            
             />   
-           <MaterialIcons 
+           <MaterialIcons  //Biblioteca responsável pelo ícone do campo de e-mail
            name='email'
            size={20}
            color={themas.colors.gray}
@@ -36,13 +36,13 @@ return(
 
         </View>
         
-        <Text style={style.senhaImput}>SENHA</Text>
-        <View style={style.boxImput}>
+        <Text style={style.senhaImput}>SENHA</Text> 
+        <View style={style.boxImput}> 
             
             <TextInput
                 style={style.imput}            
             />   
-           <MaterialIcons 
+           <MaterialIcons  //Biblioteca responsável pelo ícone do campo da senha
            name='remove-red-eye'
            size={20}
            color={themas.colors.gray}

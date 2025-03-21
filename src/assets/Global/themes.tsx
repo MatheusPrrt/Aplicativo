@@ -1,4 +1,4 @@
-export const themas ={
+export const themas ={  //Váriavel responsável pela mudança de cores, para melhor facilidade do código
 
 colors:{
 
