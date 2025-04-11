@@ -10,12 +10,13 @@ container:{
     justifyContent : 'center',
     
     },
-BoxTop:{ //Campo responsável pela parte de cima da tela
+BoxTop:{ 
     height:Dimensions.get('window').height/3,
+   
     width: '100%',
-    //backgroundColor: 'red',
+   
     alignItems: 'center',
-    justifyContent: 'center'
+
      },
  BoxMid:{ //Campo responsável pelo meio da tela
     height:Dimensions.get('window').height/4,
@@ -26,7 +27,8 @@ BoxBotton:{ //Campo responsável pela parte de baixo da tela
 
     height:Dimensions.get('window').height/3,
     width: '100%',
-    backgroundColor: 'blue'
+    alignItems: 'center',
+    justifyContent: 'center',
  },
 logo:{ // Campo responsável pela logo
     width:80,
@@ -71,10 +73,94 @@ height:'100%',
 width:'90%',
 backgroundColor: 'white',
 borderRadius:40,
+},
+button:{
+    width:200,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor:themas.colors.gray,
+    borderRadius: 40,
+},
+TextBotton:{
+    fontSize:16,
+    color:'#FFFF',
+    fontWeight:'bold',
+},
+NãoTemConta:{
+    fontSize:16,
+    color: 'blue', 
 
 
 
+},
+titleRegistro:{       // parte responsável pelos estilos da pagina Registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+},
+inputDigiteEmail:{
+
+
+
+
+
+
+
+
+
+
+
+
+},
+inputDigiteSenha:{
+
+
+
+
+
+},
+inputConfirmeSenha:{
+
+
+
+
+
+
+},
+buttonTextCriarConta:{
+
+
+
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
